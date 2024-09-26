@@ -50,8 +50,9 @@ class _ContactListScreenState extends State<ContactListScreen> {
                 style: const TextStyle(fontSize: 20),
               ),
               subtitle: Text(_contacts[index].email), // Optional: Display email
-              trailing: Text(_contacts[index]
-                  .phoneNumber), // Optional: Display phone number
+              trailing: IconButton(
+                icon: Icon(Icons.star_border), onPressed: () {  },
+              ), // Optional: Display phone number
             );
           },
         ),
