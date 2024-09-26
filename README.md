@@ -1,6 +1,6 @@
-# myapp
+# Contacts App
 
-A new Flutter project.
+Flutter project displaying contacts using listview.
 
 ## Getting Started
 
